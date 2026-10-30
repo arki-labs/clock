@@ -1,6 +1,6 @@
 {
   "name": "@arki/clock",
-  "version": "0.0.2",
+  "version": "0.2.0",
   "description": "Clock abstraction for testable time-dependent code, with deterministic mock and system implementations.",
   "license": "MIT",
   "repository": {
@@ -39,8 +39,14 @@
     "!src/**/__tests__/**",
     "README.md",
     "LICENSE",
+    "llms.txt",
+    "docs/**",
+    "AGENTS.md",
     "package.json"
   ],
+  "dependencies": {
+    "@arki/failure": "0.3.0"
+  },
   "publishConfig": {
     "access": "public"
   }
