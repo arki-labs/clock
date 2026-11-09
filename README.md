@@ -1,4 +1,4 @@
-Read-only mirror of `@arki/clock` v0.2.0. Source and issues: arki-labs/arki. Docs: https://arki.dev/packages/clock. Published 2026-10-30 with provenance https://www.npmjs.com/package/@arki/clock/v/0.2.0#provenance.
+Read-only mirror of `@arki/clock` v0.2.1. Source and issues: arki-labs/arki. Docs: https://arki.dev/packages/clock. Published 2026-11-09 with provenance https://www.npmjs.com/package/@arki/clock/v/0.2.1#provenance.
 
 # @arki/clock
 
@@ -72,13 +72,13 @@ Pure ESM with a portable `@arki/failure` dependency and no `node:*` imports. It 
 
 <!-- runtimes:start -->
 
-| Runtime | Result  | Version tested        | Date (UTC) |
-| ------- | ------- | --------------------- | ---------- |
-| node    | pass    | v26.11.1              | 2026-10-17 |
-| bun     | pass    | 1.4.2                 | 2026-10-17 |
-| deno    | pass    | 2.9.7                 | 2026-10-17 |
-| browser | pass    | Chromium 156.0.8078.4 | 2026-10-17 |
-| hermes  | not run | -                     | 2026-10-17 |
+| Runtime | Result | Version tested        | Date (UTC) |
+| ------- | ------ | --------------------- | ---------- |
+| node    | pass   | v22.13.1              | 2026-11-05 |
+| bun     | pass   | 1.4.2                 | 2026-11-05 |
+| deno    | pass   | 2.9.8                 | 2026-11-05 |
+| browser | pass   | Chromium 156.0.8078.4 | 2026-11-05 |
+| hermes  | pass   | V1 250829098.0.17     | 2026-11-05 |
 
 <!-- runtimes:end -->
 
@@ -153,6 +153,10 @@ const outcome = await waiting;
 if (!SleepCancelled.is(outcome)) throw new Error('sleep should have returned cancellation');
 if (outcome.cause !== 'user cancelled') throw new Error('cause should be the abort reason');
 ```
+
+## Observability
+
+Pure computation: no I/O, so no spans or metrics.
 
 ## Limits
 
