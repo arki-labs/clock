@@ -1,4 +1,4 @@
-Read-only mirror of `@arki/clock` v0.2.1. Source and issues: arki-labs/arki. Docs: https://arki.dev/packages/clock. Published 2026-11-09 with provenance https://www.npmjs.com/package/@arki/clock/v/0.2.1#provenance.
+Read-only mirror of `@arki/clock` v0.2.3. Source and issues: arki-labs/arki. Docs: https://arki.dev/packages/clock. Published 2026-11-26 with provenance https://www.npmjs.com/package/@arki/clock/v/0.2.3#provenance.
 
 # @arki/clock
 
